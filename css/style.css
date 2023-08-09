@@ -366,8 +366,9 @@ figure img {
 
 /* * Responsive */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     header {
+        grid-template-columns: none;
         grid-template-rows: repeat(2,50%);
     }
 }
